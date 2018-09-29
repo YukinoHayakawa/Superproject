@@ -1,0 +1,24 @@
+[submodule "projects/Usagi"]
+	path = projects/Usagi
+	url = https://github.com/YukinoHayakawa/Usagi.git
+[submodule "projects/Demos/NuklearDemo"]
+	path = projects/Demos/NuklearDemo
+	url = https://github.com/YukinoHayakawa/NuklearDemo.git
+[submodule "projects/Demos/MainLoop"]
+	path = projects/Demos/MainLoop
+	url = https://github.com/YukinoHayakawa/MainLoop.git
+[submodule "projects/Demos/ImGuiDemo"]
+	path = projects/Demos/ImGuiDemo
+	url = https://github.com/YukinoHayakawa/ImGuiDemo.git
+[submodule "projects/Demos/HelloSwapchain"]
+	path = projects/Demos/HelloSwapchain
+	url = https://github.com/YukinoHayakawa/HelloSwapchain.git
+[submodule "projects/Demos/DebugDrawDemo"]
+	path = projects/Demos/DebugDrawDemo
+	url = https://github.com/YukinoHayakawa/DebugDrawDemo.git
+[submodule "projects/GalGame/MoeLoop"]
+	path = projects/GalGame/MoeLoop
+	url = https://github.com/YukinoHayakawa/MoeLoop.git
+[submodule "projects/GalGame/MLScriptTranslator"]
+	path = projects/GalGame/MLScriptTranslator
+	url = https://github.com/YukinoHayakawa/MLScriptTranslator.git
