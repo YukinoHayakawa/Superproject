@@ -22,3 +22,39 @@
 [submodule "projects/GalGame/MLScriptTranslator"]
 	path = projects/GalGame/MLScriptTranslator
 	url = https://github.com/YukinoHayakawa/MLScriptTranslator.git
+[submodule "Thirdparties/Submodules/utfcpp"]
+	path = Thirdparties/Submodules/utfcpp
+	url = https://github.com/nemtrif/utfcpp.git
+[submodule "Thirdparties/Submodules/stb"]
+	path = Thirdparties/Submodules/stb
+	url = https://github.com/nothings/stb.git
+[submodule "Thirdparties/Submodules/SPIRV-Cross"]
+	path = Thirdparties/Submodules/SPIRV-Cross
+	url = https://github.com/KhronosGroup/SPIRV-Cross.git
+[submodule "Thirdparties/Submodules/spdlog"]
+	path = Thirdparties/Submodules/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "Thirdparties/Submodules/fmt"]
+	path = Thirdparties/Submodules/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "Thirdparties/Submodules/glslang"]
+	path = Thirdparties/Submodules/glslang
+	url = https://github.com/KhronosGroup/glslang.git
+[submodule "Thirdparties/Submodules/imgui"]
+	path = Thirdparties/Submodules/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "Thirdparties/Submodules/json"]
+	path = Thirdparties/Submodules/json
+	url = https://github.com/nlohmann/json.git
+[submodule "Thirdparties/Submodules/kaguya"]
+	path = Thirdparties/Submodules/kaguya
+	url = https://github.com/satoren/kaguya.git
+[submodule "Thirdparties/Submodules/lua"]
+	path = Thirdparties/Submodules/lua
+	url = https://github.com/lua/lua.git
+[submodule "Thirdparties/Submodules/nuklear"]
+	path = Thirdparties/Submodules/nuklear
+	url = https://github.com/vurtun/nuklear.git
+[submodule "Thirdparties/Submodules/debug-draw"]
+	path = Thirdparties/Submodules/debug-draw
+	url = https://github.com/glampert/debug-draw.git
