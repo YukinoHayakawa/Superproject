@@ -3,6 +3,8 @@
 rem https://stackoverflow.com/questions/7550388/how-do-i-set-the-taglib-character-set-on-windows-to-use-unicode
 rem https://stackoverflow.com/questions/16910787/use-existing-visual-studio-project-in-cmake
 
+rem ### Dependencies of Usagi ###
+
 rem fmt
 md fmt\build & cd fmt\build
 cmake .. ^
@@ -36,3 +38,9 @@ cmake .. ^
 -Dspirv-cross-reflect_GUID_CMAKE:INTERNAL="383414a1-4e4e-3867-b4d1-a695d8987077" ^
 -Dspirv-cross-util_GUID_CMAKE:INTERNAL="88cc132d-bf6f-39b4-af07-17c68a1c42c0"
 cd ..\..
+
+rem ### Dependencies of MoeLoop ###
+
+rem lua
+md lua\build
+copy lua.vcxproj lua\build\

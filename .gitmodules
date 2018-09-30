@@ -58,3 +58,6 @@
 [submodule "Thirdparties/Submodules/debug-draw"]
 	path = Thirdparties/Submodules/debug-draw
 	url = https://github.com/glampert/debug-draw.git
+[submodule "Includes/MoeLoop"]
+	path = Includes/MoeLoop
+	url = https://github.com/YukinoHayakawa/MoeLoop.git
