@@ -1,26 +1,26 @@
-[submodule "projects/Usagi"]
-	path = projects/Usagi
+[submodule "Projects/Usagi"]
+	path = Projects/Usagi
 	url = https://github.com/YukinoHayakawa/Usagi.git
-[submodule "projects/Demos/NuklearDemo"]
-	path = projects/Demos/NuklearDemo
+[submodule "Projects/Demos/NuklearDemo"]
+	path = Projects/Demos/NuklearDemo
 	url = https://github.com/YukinoHayakawa/NuklearDemo.git
-[submodule "projects/Demos/MainLoop"]
-	path = projects/Demos/MainLoop
+[submodule "Projects/Demos/MainLoop"]
+	path = Projects/Demos/MainLoop
 	url = https://github.com/YukinoHayakawa/MainLoop.git
-[submodule "projects/Demos/ImGuiDemo"]
-	path = projects/Demos/ImGuiDemo
+[submodule "Projects/Demos/ImGuiDemo"]
+	path = Projects/Demos/ImGuiDemo
 	url = https://github.com/YukinoHayakawa/ImGuiDemo.git
-[submodule "projects/Demos/HelloSwapchain"]
-	path = projects/Demos/HelloSwapchain
+[submodule "Projects/Demos/HelloSwapchain"]
+	path = Projects/Demos/HelloSwapchain
 	url = https://github.com/YukinoHayakawa/HelloSwapchain.git
-[submodule "projects/Demos/DebugDrawDemo"]
-	path = projects/Demos/DebugDrawDemo
+[submodule "Projects/Demos/DebugDrawDemo"]
+	path = Projects/Demos/DebugDrawDemo
 	url = https://github.com/YukinoHayakawa/DebugDrawDemo.git
-[submodule "projects/GalGame/MoeLoop"]
-	path = projects/GalGame/MoeLoop
+[submodule "Projects/GalGame/MoeLoop"]
+	path = Projects/GalGame/MoeLoop
 	url = https://github.com/YukinoHayakawa/MoeLoop.git
-[submodule "projects/GalGame/MLScriptTranslator"]
-	path = projects/GalGame/MLScriptTranslator
+[submodule "Projects/GalGame/MLScriptTranslator"]
+	path = Projects/GalGame/MLScriptTranslator
 	url = https://github.com/YukinoHayakawa/MLScriptTranslator.git
 [submodule "Thirdparties/Submodules/utfcpp"]
 	path = Thirdparties/Submodules/utfcpp
