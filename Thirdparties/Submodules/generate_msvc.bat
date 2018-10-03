@@ -6,6 +6,7 @@ rem https://stackoverflow.com/questions/16910787/use-existing-visual-studio-proj
 rem ### Dependencies of Usagi ###
 
 rem fmt
+rm -r fmt\build
 md fmt\build & cd fmt\build
 cmake .. ^
 -G "Visual Studio 15 2017 Win64" ^
@@ -14,6 +15,7 @@ cmake .. ^
 cd ..\..
 
 rem glslang
+rm -r glslang\build
 md glslang\build & cd glslang\build
 cmake .. ^
 -G "Visual Studio 15 2017 Win64" ^
@@ -26,6 +28,7 @@ cmake .. ^
 cd ..\..
 
 rem SPIRV-Cross
+rm -r SPIRV-Cross\build
 md SPIRV-Cross\build & cd SPIRV-Cross\build
 cmake .. ^
 -G "Visual Studio 15 2017 Win64" ^
