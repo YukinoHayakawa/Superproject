@@ -25,6 +25,9 @@
       <AssemblyDebug>true</AssemblyDebug>
     </Link>
     <ProjectReference />
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>
