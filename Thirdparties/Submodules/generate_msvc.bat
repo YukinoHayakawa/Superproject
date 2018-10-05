@@ -3,23 +3,23 @@
 rem https://stackoverflow.com/questions/7550388/how-do-i-set-the-taglib-character-set-on-windows-to-use-unicode
 rem https://stackoverflow.com/questions/16910787/use-existing-visual-studio-project-in-cmake
 
+SETLOCAL
+SET _GEN="Visual Studio 15 2017 Win64"
+SET _FLAGS="/DWIN32 /D_WINDOWS /W3 /GR /EHsc /D_UNICODE"
+
 rem ### Dependencies of Usagi ###
 
 rem fmt
 rm -r fmt\build
 md fmt\build & cd fmt\build
-cmake .. ^
--G "Visual Studio 15 2017 Win64" ^
--DCMAKE_CXX_FLAGS="/DWIN32 /D_WINDOWS /W3 /GR /EHsc /D_UNICODE" ^
+cmake .. -G %_GEN% -DCMAKE_CXX_FLAGS=%_FLAGS% ^
 -Dfmt_GUID_CMAKE:INTERNAL="65806822-06b5-3679-ac9f-629ea69adaf1"
 cd ..\..
 
 rem glslang
 rm -r glslang\build
 md glslang\build & cd glslang\build
-cmake .. ^
--G "Visual Studio 15 2017 Win64" ^
--DCMAKE_CXX_FLAGS="/DWIN32 /D_WINDOWS /W3 /GR /EHsc /D_UNICODE" ^
+cmake .. -G %_GEN% -DCMAKE_CXX_FLAGS=%_FLAGS% ^
 -Dglslang_GUID_CMAKE:INTERNAL="cfebe9ae-9cf8-30fa-8fc0-31067e861f34" ^
 -DHLSL_GUID_CMAKE:INTERNAL="83d45e57-0b6e-3904-b1ac-b366ad1e8a72" ^
 -DOGLCompiler_GUID_CMAKE:INTERNAL="0747be93-f3c1-397f-bfc7-2a4ababe7ba7" ^
@@ -30,9 +30,7 @@ cd ..\..
 rem SPIRV-Cross
 rm -r SPIRV-Cross\build
 md SPIRV-Cross\build & cd SPIRV-Cross\build
-cmake .. ^
--G "Visual Studio 15 2017 Win64" ^
--DCMAKE_CXX_FLAGS="/DWIN32 /D_WINDOWS /W3 /GR /EHsc /D_UNICODE" ^
+cmake .. -G %_GEN% -DCMAKE_CXX_FLAGS=%_FLAGS% ^
 -Dspirv-cross-core_GUID_CMAKE:INTERNAL="5a2df431-3a80-3c06-b9b1-27430b56a29e" ^
 -Dspirv-cross-cpp_GUID_CMAKE:INTERNAL="38420c6a-42c5-3ab9-a6e5-59e445ac0e5e" ^
 -Dspirv-cross-glsl_GUID_CMAKE:INTERNAL="065dc5c3-4006-3e20-a116-6b66bf3d954b" ^
@@ -47,3 +45,5 @@ rem ### Dependencies of MoeLoop ###
 rem lua
 md lua\build
 copy lua.vcxproj lua\build\
+
+ENDLOCAL
