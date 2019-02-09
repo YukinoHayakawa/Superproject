@@ -61,3 +61,12 @@
 [submodule "Includes/MoeLoop"]
 	path = Includes/MoeLoop
 	url = https://github.com/YukinoHayakawa/MoeLoop.git
+[submodule "Projects/University/GraphLayout"]
+	path = Projects/University/GraphLayout
+	url = ../GraphLayout.git
+[submodule "Projects/University/GraphLayoutDemo"]
+	path = Projects/University/GraphLayoutDemo
+	url = ../GraphLayoutDemo.git
+[submodule "Projects/Private/Irregulars/Mobius"]
+	path = Projects/Private/Irregulars/Mobius
+	url = E:\\Projects\\Synced\\Superproject\\Projects\\Private\\Irregulars\\Mobius
