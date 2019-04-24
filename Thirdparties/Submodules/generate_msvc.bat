@@ -10,14 +10,14 @@ SET _FLAGS="/DWIN32 /D_WINDOWS /W3 /GR /EHsc /D_UNICODE"
 rem ### Dependencies of Usagi ###
 
 rem fmt
-rm -r fmt\build
+del /s /q fmt\build
 md fmt\build & cd fmt\build
 cmake .. -G %_GEN% -DCMAKE_CXX_FLAGS=%_FLAGS% ^
 -Dfmt_GUID_CMAKE:INTERNAL="65806822-06b5-3679-ac9f-629ea69adaf1"
 cd ..\..
 
 rem glslang
-rm -r glslang\build
+del /s /q glslang\build
 md glslang\build & cd glslang\build
 cmake .. -G %_GEN% -DCMAKE_CXX_FLAGS=%_FLAGS% ^
 -Dglslang_GUID_CMAKE:INTERNAL="cfebe9ae-9cf8-30fa-8fc0-31067e861f34" ^
@@ -28,7 +28,7 @@ cmake .. -G %_GEN% -DCMAKE_CXX_FLAGS=%_FLAGS% ^
 cd ..\..
 
 rem SPIRV-Cross
-rm -r SPIRV-Cross\build
+del /s /q SPIRV-Cross\build
 md SPIRV-Cross\build & cd SPIRV-Cross\build
 cmake .. -G %_GEN% -DCMAKE_CXX_FLAGS=%_FLAGS% ^
 -Dspirv-cross-core_GUID_CMAKE:INTERNAL="5a2df431-3a80-3c06-b9b1-27430b56a29e" ^
