@@ -69,7 +69,7 @@
 	url = ../GraphLayoutDemo.git
 [submodule "Projects/Private/Irregulars/Mobius"]
 	path = Projects/Private/Irregulars/Mobius
-	url = E:\\Projects\\Synced\\Superproject\\Projects\\Private\\Irregulars\\Mobius
+	url = ../Mobius
 [submodule "Projects/GalGame/Negibisu"]
 	path = Projects/GalGame/Negibisu
-	url = ../Negibisu.git
+	url = https://github.com/YukinoHayakawa/Negibisu.git
