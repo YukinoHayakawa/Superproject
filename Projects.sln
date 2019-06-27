@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GalGame", "GalGame", "{B3AA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MLScriptTranslator", "Projects\GalGame\MLScriptTranslator\MLScriptTranslator.vcxproj", "{096E3218-E29F-4FD8-AF03-3B59103E602D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoeLoop", "Projects\GalGame\MoeLoop\MoeLoop.vcxproj", "{06658CE4-D41C-4FEB-A882-9F4EBA33CF81}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Negi", "Projects\GalGame\Negi\Negi.vcxproj", "{06658CE4-D41C-4FEB-A882-9F4EBA33CF81}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Usagi", "Projects\Usagi\Usagi\Usagi.vcxproj", "{4250E1C0-EA0B-4575-BC04-11E7F83C2ED4}"
 EndProject

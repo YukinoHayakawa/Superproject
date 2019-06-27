@@ -16,9 +16,9 @@
 [submodule "Projects/Demos/DebugDrawDemo"]
 	path = Projects/Demos/DebugDrawDemo
 	url = https://github.com/YukinoHayakawa/DebugDrawDemo.git
-[submodule "Projects/GalGame/MoeLoop"]
-	path = Projects/GalGame/MoeLoop
-	url = https://github.com/YukinoHayakawa/MoeLoop.git
+[submodule "Projects/GalGame/Negi"]
+	path = Projects/GalGame/Negi
+	url = https://github.com/YukinoHayakawa/Negi.git
 [submodule "Projects/GalGame/MLScriptTranslator"]
 	path = Projects/GalGame/MLScriptTranslator
 	url = https://github.com/YukinoHayakawa/MLScriptTranslator.git
