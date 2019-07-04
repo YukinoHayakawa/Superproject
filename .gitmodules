@@ -46,9 +46,6 @@
 [submodule "Thirdparties/Submodules/json"]
 	path = Thirdparties/Submodules/json
 	url = https://github.com/nlohmann/json.git
-[submodule "Thirdparties/Submodules/kaguya"]
-	path = Thirdparties/Submodules/kaguya
-	url = https://github.com/satoren/kaguya.git
 [submodule "Thirdparties/Submodules/lua"]
 	path = Thirdparties/Submodules/lua
 	url = https://github.com/lua/lua.git
@@ -73,3 +70,6 @@
 [submodule "Projects/GalGame/Negibisu"]
 	path = Projects/GalGame/Negibisu
 	url = https://github.com/YukinoHayakawa/Negibisu.git
+[submodule "Thirdparties/Submodules/sol2"]
+	path = Thirdparties/Submodules/sol2
+	url = https://github.com/ThePhD/sol2.git
