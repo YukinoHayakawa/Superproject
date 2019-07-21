@@ -73,3 +73,6 @@
 [submodule "Thirdparties/Submodules/sol2"]
 	path = Thirdparties/Submodules/sol2
 	url = https://github.com/ThePhD/sol2.git
+[submodule "Projects/Demos/ECSDemo"]
+	path = Projects/Demos/ECSDemo
+	url = git@github.com:YukinoHayakawa/ECSDemo.git
