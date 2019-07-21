@@ -77,6 +77,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GTA", "Projects\OpenWorld\G
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Negibisu", "Projects\GalGame\Negibisu\Negibisu.vcxproj", "{67D7F7B8-4630-445E-8DAF-009D8D59FD15}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsagiExt", "UsagiExt", "{3E380B7A-2180-47BA-97EE-2325BE434C4B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontStash", "Projects\UsagiProjects\UsagiExt\FontStash\FontStash.vcxproj", "{D8A19853-2808-4822-BA5C-C1C114935695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -230,6 +234,12 @@ Global
 		{67D7F7B8-4630-445E-8DAF-009D8D59FD15}.Release|x64.Build.0 = Release|x64
 		{67D7F7B8-4630-445E-8DAF-009D8D59FD15}.RelWithDebInfo|x64.ActiveCfg = Release|x64
 		{67D7F7B8-4630-445E-8DAF-009D8D59FD15}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{D8A19853-2808-4822-BA5C-C1C114935695}.Debug|x64.ActiveCfg = Debug|x64
+		{D8A19853-2808-4822-BA5C-C1C114935695}.Debug|x64.Build.0 = Debug|x64
+		{D8A19853-2808-4822-BA5C-C1C114935695}.Release|x64.ActiveCfg = Release|x64
+		{D8A19853-2808-4822-BA5C-C1C114935695}.Release|x64.Build.0 = Release|x64
+		{D8A19853-2808-4822-BA5C-C1C114935695}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{D8A19853-2808-4822-BA5C-C1C114935695}.RelWithDebInfo|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -265,6 +275,7 @@ Global
 		{394C9C02-20AA-45ED-AE6F-D7D0F261B5A7} = {9F1DB86E-BA21-4F35-9873-864E6923F5AD}
 		{28320AFC-3DD7-49F5-BA3D-AF07182229B8} = {56590458-2075-4FC4-8F6A-A4AEC8029028}
 		{67D7F7B8-4630-445E-8DAF-009D8D59FD15} = {B3AA916C-A817-434A-B603-CB203C5CAD4F}
+		{D8A19853-2808-4822-BA5C-C1C114935695} = {3E380B7A-2180-47BA-97EE-2325BE434C4B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E4D86D0-3EAE-4935-AA6A-A64ECA9CCA62}
