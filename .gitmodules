@@ -76,3 +76,6 @@
 [submodule "Projects/Demos/ECSDemo"]
 	path = Projects/Demos/ECSDemo
 	url = git@github.com:YukinoHayakawa/ECSDemo.git
+[submodule "Thirdparties/Submodules/fontstash"]
+	path = Thirdparties/Submodules/fontstash
+	url = git@github.com:YukinoHayakawa/fontstash.git
