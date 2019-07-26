@@ -82,3 +82,9 @@
 [submodule "Projects/UsagiProjects/UsagiExt/FontStash"]
 	path = Projects/UsagiProjects/UsagiExt/FontStash
 	url = git@github.com:YukinoHayakawa/FontStashExt.git
+[submodule "Projects/GalGame/NegiECS"]
+	path = Projects/GalGame/NegiECS
+	url = git@github.com:YukinoHayakawa/NegiECS.git
+[submodule "Projects/Private/Irregulars/MobiusECS"]
+	path = Projects/Private/Irregulars/MobiusECS
+	url = ../MobiusECS.git
