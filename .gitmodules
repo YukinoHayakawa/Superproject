@@ -88,3 +88,9 @@
 [submodule "Projects/Private/Irregulars/MobiusECS"]
 	path = Projects/Private/Irregulars/MobiusECS
 	url = ../MobiusECS.git
+[submodule "Thirdparties/Submodules/NtCall64"]
+	path = Thirdparties/Submodules/NtCall64
+	url = git@github.com:hfiref0x/NtCall64.git
+[submodule "Thirdparties/Submodules/portaudio"]
+	path = Thirdparties/Submodules/portaudio
+	url = https://git.assembla.com/portaudio.git
