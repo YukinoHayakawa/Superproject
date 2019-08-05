@@ -94,3 +94,6 @@
 [submodule "Thirdparties/Submodules/portaudio"]
 	path = Thirdparties/Submodules/portaudio
 	url = https://git.assembla.com/portaudio.git
+[submodule "Projects/UsagiProjects/UsagiExt/Audio/UsagiExtPortAudio"]
+	path = Projects/UsagiProjects/UsagiExt/Audio/UsagiExtPortAudio
+	url = git@github.com:YukinoHayakawa/UsagiExtPortAudio.git
