@@ -97,3 +97,6 @@
 [submodule "Projects/Extensions/Usagi/Extensions/RtPortAudio"]
 	path = Projects/Extensions/Usagi/Extensions/RtPortAudio
 	url = https://github.com/YukinoHayakawa/RtPortAudio.git
+[submodule "Projects/Tests"]
+	path = Projects/Tests
+	url = https://github.com/YukinoHayakawa/Tests.git
