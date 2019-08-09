@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Include Directory.Build.props Paths</Name>
+    <Name>Include Directory.Build.props Paths Lib</Name>
     <Description>This template loads Dir_IncludePath and Dir_LibraryPath defined in Directory.Build.props into project paths.</Description>
     <ProjectType>VC</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Include Directory.Build.props Paths</DefaultName>
+    <DefaultName>Include Directory.Build.props Paths Lib</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>

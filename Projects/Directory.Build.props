@@ -1,7 +1,7 @@
 <Project>
   <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
   <PropertyGroup>
-    <Dir_IncludePath>$(SolutionDir)Projects\Usagi;$(SolutionDir)Projects\UsagiProjects;$(SolutionDir)Thirdparties\Includes;$(Dir_IncludePath)</Dir_IncludePath>
+    <Dir_IncludePath>$(SolutionDir)Projects\Usagi;$(SolutionDir)Projects\Extensions;$(SolutionDir)Thirdparties\Includes;$(Dir_IncludePath)</Dir_IncludePath>
     <Dir_LibraryPath>$(SolutionDir)Thirdparties\Libs;$(Dir_LibraryPath)</Dir_LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>

@@ -75,25 +75,25 @@
 	url = https://github.com/ThePhD/sol2.git
 [submodule "Projects/Demos/ECSDemo"]
 	path = Projects/Demos/ECSDemo
-	url = git@github.com:YukinoHayakawa/ECSDemo.git
+	url = https://github.com/YukinoHayakawa/ECSDemo.git
 [submodule "Thirdparties/Submodules/fontstash"]
 	path = Thirdparties/Submodules/fontstash
-	url = git@github.com:YukinoHayakawa/fontstash.git
+	url = https://github.com/YukinoHayakawa/fontstash.git
 [submodule "Projects/UsagiProjects/UsagiExt/FontStash"]
 	path = Projects/UsagiProjects/UsagiExt/FontStash
-	url = git@github.com:YukinoHayakawa/UsagiExtFontStash.git
+	url = https://github.com/YukinoHayakawa/UsagiExtFontStash.git
 [submodule "Projects/GalGame/NegiECS"]
 	path = Projects/GalGame/NegiECS
-	url = git@github.com:YukinoHayakawa/NegiECS.git
+	url = https://github.com/YukinoHayakawa/NegiECS.git
 [submodule "Projects/Private/Irregulars/MobiusECS"]
 	path = Projects/Private/Irregulars/MobiusECS
 	url = ../MobiusECS.git
 [submodule "Thirdparties/Submodules/NtCall64"]
 	path = Thirdparties/Submodules/NtCall64
-	url = git@github.com:hfiref0x/NtCall64.git
+	url = https://github.com/hfiref0x/NtCall64.git
 [submodule "Thirdparties/Submodules/portaudio"]
 	path = Thirdparties/Submodules/portaudio
 	url = https://git.assembla.com/portaudio.git
-[submodule "Projects/UsagiProjects/UsagiExt/Audio/UsagiExtPortAudio"]
-	path = Projects/UsagiProjects/UsagiExt/Audio/UsagiExtPortAudio
-	url = git@github.com:YukinoHayakawa/UsagiExtPortAudio.git
+[submodule "Projects/Extensions/Usagi/Extensions/RtPortAudio"]
+	path = Projects/Extensions/Usagi/Extensions/RtPortAudio
+	url = https://github.com/YukinoHayakawa/RtPortAudio.git

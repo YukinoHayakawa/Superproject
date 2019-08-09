@@ -43,7 +43,14 @@ start cmake .. %_CMAKE_ARGS% ^
 -Dspirv-cross-util_GUID_CMAKE:INTERNAL="88cc132d-bf6f-39b4-af07-17c68a1c42c0"
 cd ..\..
 
-rem ### Dependencies of MoeLoop ###
+rem libnyquist
+del /s /q libnyquist\build
+md libnyquist\build & cd libnyquist\build
+start cmake .. %_CMAKE_ARGS% ^
+-Dlibnyquist_GUID_CMAKE:INTERNAL="2567D83A-3050-37AA-ACAE-F9841523146D"
+cd ..\..
+
+rem ### Dependencies of Negi ###
 
 rem lua
 md lua\build
