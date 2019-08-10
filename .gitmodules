@@ -100,3 +100,6 @@
 [submodule "Projects/Tests"]
 	path = Projects/Tests
 	url = https://github.com/YukinoHayakawa/Tests.git
+[submodule "Projects/Extensions/Usagi/Extensions/AssetAudioFormats"]
+	path = Projects/Extensions/Usagi/Extensions/AssetAudioFormats
+	url = https://github.com/YukinoHayakawa/AssetAudioFormats.git
