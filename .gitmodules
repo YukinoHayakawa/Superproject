@@ -103,3 +103,6 @@
 [submodule "Projects/Extensions/Usagi/Extensions/AssetAudioFormats"]
 	path = Projects/Extensions/Usagi/Extensions/AssetAudioFormats
 	url = https://github.com/YukinoHayakawa/AssetAudioFormats.git
+[submodule "Projects/Extensions/Usagi/Extensions/SysBasicAudioMixing"]
+	path = Projects/Extensions/Usagi/Extensions/SysBasicAudioMixing
+	url = https://github.com/YukinoHayakawa/SysBasicAudioMixing.git
