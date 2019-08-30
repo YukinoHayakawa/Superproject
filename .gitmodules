@@ -115,3 +115,12 @@
 [submodule "Projects/Extensions/Usagi/Extensions/RtVulkanWin32WSI"]
 	url = https://github.com/YukinoHayakawa/RtVulkanWin32WSI.git
 	path = Projects/Extensions/Usagi/Extensions/RtVulkanWin32WSI
+[submodule "Projects/Extensions/Usagi/Extensions/SysNuklear"]
+	url = https://github.com/YukinoHayakawa/SysNuklear.git
+	path = Projects/Extensions/Usagi/Extensions/SysNuklear
+[submodule "Projects/Extensions/Usagi/Extensions/SysImGui"]
+	url = https://github.com/YukinoHayakawa/SysImGui.git
+	path = Projects/Extensions/Usagi/Extensions/SysImGui
+[submodule "Projects/Extensions/Usagi/Extensions/SysDebugDraw"]
+	url = https://github.com/YukinoHayakawa/SysDebugDraw.git
+	path = Projects/Extensions/Usagi/Extensions/SysDebugDraw
