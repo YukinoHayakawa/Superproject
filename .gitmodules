@@ -106,3 +106,12 @@
 [submodule "Projects/Extensions/Usagi/Extensions/SysBasicAudioMixing"]
 	path = Projects/Extensions/Usagi/Extensions/SysBasicAudioMixing
 	url = https://github.com/YukinoHayakawa/SysBasicAudioMixing.git
+[submodule "Projects/Extensions/Usagi/Extensions/RtVulkan"]
+	url = https://github.com/YukinoHayakawa/RtVulkan.git
+	path = Projects/Extensions/Usagi/Extensions/RtVulkan
+[submodule "Projects/Extensions/Usagi/Extensions/RtWin32"]
+	url = "E:/#BackupWeekly/#LaptopSynced/Dev/Projects/Superproject/Projects/Usagi"
+	path = Projects/Extensions/Usagi/Extensions/RtWin32
+[submodule "Projects/Extensions/Usagi/Extensions/RtVulkanWin32WSI"]
+	url = https://github.com/YukinoHayakawa/RtVulkanWin32WSI.git
+	path = Projects/Extensions/Usagi/Extensions/RtVulkanWin32WSI
