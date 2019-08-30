@@ -79,9 +79,6 @@
 [submodule "Thirdparties/Submodules/fontstash"]
 	path = Thirdparties/Submodules/fontstash
 	url = https://github.com/YukinoHayakawa/fontstash.git
-[submodule "Projects/UsagiProjects/UsagiExt/FontStash"]
-	path = Projects/UsagiProjects/UsagiExt/FontStash
-	url = https://github.com/YukinoHayakawa/UsagiExtFontStash.git
 [submodule "Projects/GalGame/NegiECS"]
 	path = Projects/GalGame/NegiECS
 	url = https://github.com/YukinoHayakawa/NegiECS.git
@@ -124,3 +121,6 @@
 [submodule "Projects/Extensions/Usagi/Extensions/SysDebugDraw"]
 	url = https://github.com/YukinoHayakawa/SysDebugDraw.git
 	path = Projects/Extensions/Usagi/Extensions/SysDebugDraw
+[submodule "Projects/Extensions/Usagi/Extensions/SysFontStash"]
+	url = https://github.com/YukinoHayakawa/SysFontStash.git
+	path = Projects/Extensions/Usagi/Extensions/SysFontStash
