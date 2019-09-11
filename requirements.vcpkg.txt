@@ -1,0 +1,7 @@
+boost
+cryptopp
+eigen3
+fmt
+libvorbis
+portaudio
+stb
