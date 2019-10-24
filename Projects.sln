@@ -129,6 +129,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SysDebugDraw", "Projects\Ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SysFontStash", "Projects\Extensions\Usagi\Extensions\SysFontStash\SysFontStash.vcxproj", "{91483D44-B6CB-4921-9167-6249F2AE2CA8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EcsTest", "Projects\Tests\EcsTest\EcsTest.vcxproj", "{E3781C10-F486-46E4-8DE2-9038FB7DEE60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -507,6 +509,14 @@ Global
 		{91483D44-B6CB-4921-9167-6249F2AE2CA8}.Release|x64.Build.0 = Release|x64
 		{91483D44-B6CB-4921-9167-6249F2AE2CA8}.RelWithDebInfo|x64.ActiveCfg = Release|x64
 		{91483D44-B6CB-4921-9167-6249F2AE2CA8}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60}.Debug|x64.ActiveCfg = Debug|x64
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60}.Debug|x64.Build.0 = Debug|x64
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60}.MinSizeRel|x64.Build.0 = Release|x64
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60}.Release|x64.ActiveCfg = Release|x64
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60}.Release|x64.Build.0 = Release|x64
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60}.RelWithDebInfo|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -566,6 +576,7 @@ Global
 		{2888F8D3-AB7C-4D3B-B1E9-4BD26BE777D2} = {4AB15C6A-C8DA-4D2D-BE98-B60DE2D52B26}
 		{5A680CE7-4229-4DC6-9F57-F50FE5C512AE} = {4AB15C6A-C8DA-4D2D-BE98-B60DE2D52B26}
 		{91483D44-B6CB-4921-9167-6249F2AE2CA8} = {4AB15C6A-C8DA-4D2D-BE98-B60DE2D52B26}
+		{E3781C10-F486-46E4-8DE2-9038FB7DEE60} = {889906D2-B4DF-45BC-A04C-792ABD160D2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E4D86D0-3EAE-4935-AA6A-A64ECA9CCA62}
