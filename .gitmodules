@@ -60,10 +60,10 @@
 	url = https://github.com/YukinoHayakawa/MoeLoop.git
 [submodule "Projects/University/GraphLayout"]
 	path = Projects/University/GraphLayout
-	url = ../GraphLayout.git
+	url = https://github.com/YukinoHayakawa/GraphLayout.git
 [submodule "Projects/University/GraphLayoutDemo"]
 	path = Projects/University/GraphLayoutDemo
-	url = ../GraphLayoutDemo.git
+	url = https://github.com/YukinoHayakawa/GraphLayoutDemo.git
 [submodule "Projects/Private/Irregulars/Mobius"]
 	path = Projects/Private/Irregulars/Mobius
 	url = ../Mobius
@@ -107,7 +107,7 @@
 	url = https://github.com/YukinoHayakawa/RtVulkan.git
 	path = Projects/Extensions/Usagi/Extensions/RtVulkan
 [submodule "Projects/Extensions/Usagi/Extensions/RtWin32"]
-	url = "E:/#BackupWeekly/#LaptopSynced/Dev/Projects/Superproject/Projects/Usagi"
+	url = "https://github.com/YukinoHayakawa/RtWin32.git"
 	path = Projects/Extensions/Usagi/Extensions/RtWin32
 [submodule "Projects/Extensions/Usagi/Extensions/RtVulkanWin32WSI"]
 	url = https://github.com/YukinoHayakawa/RtVulkanWin32WSI.git
