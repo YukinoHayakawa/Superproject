@@ -1,0 +1,6 @@
+﻿<Project>
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+  <PropertyGroup>
+    <Dir_IncludePath>$(SolutionDir)Projects\University;$(Dir_IncludePath)</Dir_IncludePath>
+  </PropertyGroup>
+</Project>
