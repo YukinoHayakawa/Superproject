@@ -124,3 +124,6 @@
 [submodule "Projects/Extensions/Usagi/Extensions/SysFontStash"]
 	url = https://github.com/YukinoHayakawa/SysFontStash.git
 	path = Projects/Extensions/Usagi/Extensions/SysFontStash
+[submodule "Projects/Demos/EcsFireworksDemo"]
+	path = Projects/Demos/EcsFireworksDemo
+	url = git@github.com:YukinoHayakawa/EcsFireworksDemo.git
